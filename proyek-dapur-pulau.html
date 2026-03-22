@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapur Pulau - Ruang Rasa Design</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html#proyek" class="logo">Ruang Rasa Design</a>
+            <ul class="nav-menu">
+                <li><a href="index.html#home">Beranda</a></li>
+                <li><a href="index.html#tentang">Tentang</a></li>
+                <li><a href="index.html#proyek">Proyek</a></li>
+                <li><a href="index.html#kontak">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="project-detail">
+        <div class="hero-video">
+            <video src="hy.mp4" autoplay loop muted playsinline style="width:100%; height:100vh; object-fit:cover;"></video>
+        </div>
+        <div class="project-overlay">
+            <div class="container">
+                <h1>Dapur Pulau</h1>
+                <p>Island tengah multifungsi untuk keluarga besar. Desain ergonomis dengan material kayu solid dan countertop marmer. Fokus pada workflow memasak optimal dan area sosial terintegrasi.</p>
+                <div class="project-features">
+                    <h3>Fitur Utama:</h3>
+                    <ul>
+                        <li>Island multifungsi: prep, dining, serving</li>
+                        <li>Kabinet deep storage 60cm</li>
+                        <li>Integrated appliances</li>
+                        <li>LED under-cabinet lighting</li>
+                        <li>Quick-access spice drawer</li>
+                    </ul>
+                </div>
+                <a href="index.html#proyek" class="cta back">Kembali ke Proyek</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ruang Rasa Design. <span><3</span></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Smooth scroll back
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                window.location.href = this.getAttribute('href');
+            });
+        });
+    </script>
+</body>
+</html>

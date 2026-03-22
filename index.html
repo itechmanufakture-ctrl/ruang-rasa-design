@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Desain Dapur - Arsitek Dapur Modern</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Ruang Rasa Design</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#proyek">Proyek</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-video">
+            <video src="hy.mp4" autoplay loop muted playsinline style="width:100%; height:100%; object-fit:cover;">
+                Video tidak didukung.
+            </video>
+        </div>
+        <div class="hero-overlay">
+            <h1>Kehangatan Rumah</h1>
+            <p>Desain interior rumah, denah & arsitektur</p>
+            <a href="#proyek" class="cta">Lihat Proyek</a>
+        </div>
+    </section>
+
+    <section id="tentang" class="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>"Lewat Ruang Rasa Design, saya menjadikan website ini sebagai jurnal visual untuk mendokumentasikan eksplorasi saya dalam merancang ruang yang fungsional dan bermakna. Bagi saya, setiap desain adalah proses belajar untuk menghubungkan teori sejarah arsitektur dengan kebutuhan hidup modern."</p>
+        </div>
+    </section>
+
+    <section id="proyek" class="projects">
+        <div class="container">
+            <h2>architecture</h2>
+            <div class="projects-grid">
+                <div class="project-card" onclick="window.open('proyek-evolusi-arsitektur.html', '_blank')">
+                    <img src="https://images.unsplash.com/photo-1556911220-b0b895fafb40?w=400&amp;fit=crop" alt="Evolusi Arsitektur">
+                    <h3>Evolusi Arsitektur</h3>
+                    <p>Keagungan Klasik: Mengenal proporsi dan simetri dari era Yunani dan Romawi. <span style="cursor:pointer;color:#8B4513;">(Klik untuk detail)</span></p>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&amp;fit=crop" alt="Dapur Island" onclick="window.open('proyek-dapur-pulau.html', '_blank')">
+                    <h3>Dapur Pulau</h3>
+                    <p>Island tengah untuk keluarga besar. <span style="cursor:pointer;color:#8B4513;">(Klik untuk detail)</span></p>
+                </div>
+                <div class="project-card" onclick="window.open('proyek-dapur-kontemporer.html', '_blank')">
+                    <img src="https://images.unsplash.com/photo-1559788286-3a867f6cc7ee?w=400&amp;fit=crop" alt="Dapur Kontemporer">
+                    <h3>Dapur Kontemporer</h3>
+                    <p>Material premium dan pencahayaan LED. <span style="cursor:pointer;color:#8B4513;">(Klik untuk detail)</span></p>
+                </div>
+                <div class="project-card" onclick="window.open('proyek-dapur-rustik.html', '_blank')">
+                    <img src="https://images.unsplash.com/photo-1600210492493-0946911123f2?w=400&amp;fit=crop" alt="Dapur Rustik">
+                    <h3>Dapur Rustik</h3>
+                    <p>Kayu alami bertemu teknologi modern. <span style="cursor:pointer;color:#8B4513;">(Klik untuk detail)</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="contact">
+        <div class="container">
+            <h2>Hubungi Saya</h2>
+            <p>Siap mewujudkan desain dapur impian Anda!</p>
+            <form>
+                <input type="text" placeholder="Nama" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Pesan" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&amp;copy; 2024 Portfolio Desain Dapur. Dibuat dengan <span><3</span></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
